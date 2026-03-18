@@ -79,11 +79,16 @@ show ip route ospf
 <img width="889" height="331" alt="Screenshot 2026-03-17 180532" src="https://github.com/user-attachments/assets/3f2ef605-4036-4709-893d-87e02b31a640" />
 
 
+
+
 ### Key Commands
-show ip ospf interface brief   # interface roles + cost
-show ip ospf database          # LSA database
-ping 4.4.4.4 source 1.1.1.1   # end-to-end reachability
+show ip ospf interface brief  -  # interface roles + cost
+show ip ospf database         -  # LSA database
+ping 4.4.4.4 source 1.1.1.1   - # end-to-end reachability
 traceroute 4.4.4.4 source 1.1.1.1
+
+
+
 
 ##  Wireshark Captures
 
