@@ -123,11 +123,10 @@ Capture point: R1–R2 link
 | Tool | Version | Purpose |
 |------|---------|---------|
 | GNS3 | 2.2.56 | Network emulation |
-| Cisco c3725 | IOS 12.4 | Requires Cisco c3725 IOS image to run locally|
+| Cisco c3725 | IOS 12.4 | Router Image|
 | Wireshark | Latest | Packet capture |
 | Solar-PuTTY | Free | Console access |
-
----
+Requires Cisco c3725 IOS image to run locally
 
 ## Skills Demonstrated
 
