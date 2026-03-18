@@ -120,7 +120,7 @@ Capture point: R1–R2 link
 
 ## Skills Demonstrated
 
-This lab directly maps to Cisco CCNA 200-301 exam topics:
+This lab directly maps to:
 - OSPFv2 neighbor states and adjacency formation
 - OSPF metric calculation and cost manipulation
 - Loopback interface best practices for Router IDs
