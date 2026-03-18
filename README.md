@@ -126,7 +126,9 @@ Capture point: R1–R2 link
 | Cisco c3725 | IOS 12.4 | Router Image|
 | Wireshark | Latest | Packet capture |
 | Solar-PuTTY | Free | Console access |
-Requires Cisco c3725 IOS image to run locally
+
+
+*Requires Cisco c3725 IOS image to run locally*
 
 ## Skills Demonstrated
 
