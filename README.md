@@ -25,20 +25,8 @@ This lab was built to demonstrate hands-on routing protocol knowledge. It covers
 | Troubleshooting | Wildcard mask errors, admin-down interfaces, wrong subnet assignments |
 
 ##  Topology
-         Lo0: 1.1.1.1                    Lo0: 2.2.2.2
-              |              
-              
-              |
-         [R1]──────f0/0──10.0.12.0/30──f0/0──[R2]
-          |                                    |
-         f0/1                                 f0/1
-      10.0.13.0/30                        10.0.24.0/30
-        f0/0                                  f0/0
-    |                       
-         |
-       [R3]──────f0/1──10.0.34.0/30──f0/1──[R4]
-              |                               |
-         Lo0: 3.3.3.3                    Lo0: 4.4.4.4
+
+<img width="1284" height="1021" alt="Screenshot 2026-03-17 181226" src="https://github.com/user-attachments/assets/8d637bdc-7859-4b18-9a19-55a0b1b1489f" />
 
 
 
@@ -62,7 +50,6 @@ All 4 routers in OSPF Area 0 (Backbone) | Process ID: 1
 | Lo0   | R3     | Lo0       | 3.3.3.3/32    |
 | Lo0   | R4     | Lo0       | 4.4.4.4/32    |
 
----
 
 ##  Router Configurations
 
@@ -75,7 +62,6 @@ Full configs for each router are in the [`/configs`](./configs) folder.
 | [R3.txt](./configs/R3.txt) | R3 | DROther |
 | [R4.txt](./configs/R4.txt) | R4 | DROther |
 
----
 
 ##  Verification
 
@@ -84,11 +70,6 @@ show ip ospf neighbor
 <img width="888" height="658" alt="Screenshot 2026-03-17 175316" src="https://github.com/user-attachments/assets/62a985c6-383f-4d34-87ea-abff9975a5db" />
 
 <img width="888" height="663" alt="Screenshot 2026-03-17 180143" src="https://github.com/user-attachments/assets/6583a74b-2069-473a-a0b5-92b338771dc5" />
-
-
-
-
-
 
 
 ### OSPF Routing Table
