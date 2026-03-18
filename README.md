@@ -83,8 +83,14 @@ show ip route ospf
 
 ### Key Commands
 show ip ospf interface brief  -  # interface roles + cost
+
+
 show ip ospf database         -  # LSA database
+
+
 ping 4.4.4.4 source 1.1.1.1   - # end-to-end reachability
+
+
 traceroute 4.4.4.4 source 1.1.1.1
 
 
