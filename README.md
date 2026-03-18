@@ -26,13 +26,18 @@ This lab was built to demonstrate hands-on routing protocol knowledge. It covers
 
 ##  Topology
          Lo0: 1.1.1.1                    Lo0: 2.2.2.2
-              |                               |
+              |              
+              
+              |
    [R1]──────f0/0──10.0.12.0/30──f0/0──[R2]
     |                                         |
    f0/1                                      f0/1
 10.0.13.0/30                           10.0.24.0/30
    f0/0                                      f0/0
-    |                                         |
+    |                        
+    
+    
+    |
    [R3]──────f0/1──10.0.34.0/30──f0/1──[R4]
               |                               |
          Lo0: 3.3.3.3                    Lo0: 4.4.4.4
@@ -74,17 +79,24 @@ Full configs for each router are in the [`/configs`](./configs) folder.
 
 ---
 
-## ✅ Verification
+##  Verification
 
 ### OSPF Neighbor Table
 show ip ospf neighbor
-> 📸 _Screenshot: all neighbors in FULL state goes here_
 <img width="888" height="658" alt="Screenshot 2026-03-17 175316" src="https://github.com/user-attachments/assets/62a985c6-383f-4d34-87ea-abff9975a5db" />
+
 <img width="888" height="663" alt="Screenshot 2026-03-17 180143" src="https://github.com/user-attachments/assets/6583a74b-2069-473a-a0b5-92b338771dc5" />
+
+
+
+
+
+
 
 ### OSPF Routing Table
 show ip route ospf
 <img width="870" height="239" alt="Screenshot 2026-03-17 180437" src="https://github.com/user-attachments/assets/fbf0e21d-82d6-4feb-b768-fc325acd1b7b" />
+
 <img width="889" height="331" alt="Screenshot 2026-03-17 180532" src="https://github.com/user-attachments/assets/3f2ef605-4036-4709-893d-87e02b31a640" />
 
 
